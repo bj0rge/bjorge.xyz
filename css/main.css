@@ -1,9 +1,7 @@
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
@@ -19,14 +17,13 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal; }
+  -webkit-font-kerning: normal;
+     -moz-font-kerning: normal;
+          font-kerning: normal; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-ul, ol, dl, figure,
 .highlight {
   margin-bottom: 15px; }
 
@@ -52,8 +49,7 @@ figcaption {
 ul, ol {
   margin-left: 30px; }
 
-li > ul,
-li > ol {
+li > ul, li > ol {
   margin-bottom: 0; }
 
 /**
@@ -69,7 +65,7 @@ a {
   color: #2a7ae2;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: #1758a9; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -90,8 +86,7 @@ blockquote {
 /**
  * Code formatting
  */
-pre,
-code {
+pre, code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
@@ -112,7 +107,6 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
@@ -120,7 +114,6 @@ pre {
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
@@ -219,8 +212,7 @@ pre {
   font-size: 18px;
   margin-bottom: 15px; }
 
-.contact-list,
-.social-media-list {
+.contact-list, .social-media-list {
   list-style: none;
   margin-left: 0; }
 
@@ -235,31 +227,25 @@ pre {
   padding-left: 15px; }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (30px / 2));
   width: calc(35% - (30px / 2)); }
 
 .footer-col-2 {
-  width: -webkit-calc(20% - (30px / 2));
   width: calc(20% - (30px / 2)); }
 
 .footer-col-3 {
-  width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
 @media screen and (max-width: 800px) {
-  .footer-col-1,
-  .footer-col-2 {
-    width: -webkit-calc(50% - (30px / 2));
+  .footer-col-1, .footer-col-2 {
     width: calc(50% - (30px / 2)); }
-
   .footer-col-3 {
-    width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
+
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
-    width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
+
 /**
  * Page content
  */
