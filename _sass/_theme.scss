@@ -1,0 +1,47 @@
+// Personal modifs
+.site-header {
+  border: 0;
+  .wrapper {
+    padding: 50px 0;
+    text-align: center;
+    @include media-query($on-palm) {
+      padding: 20px 0;
+    }
+  }
+}
+.site-title {
+  float: none;
+  font-family: $title-font-family;
+  font-weight: 900;
+  font-size: 35px;
+  color: $grey-color-dark;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  @include media-query($on-palm) {
+    font-size: 30px;
+  }
+}
+img {margin: auto;}
+p {text-align: justify}
+.site-subtitle{
+  margin-top: 60px;
+  span {
+    display: block;
+  }
+}
+.site-subtitle-quote {
+  font-family: $base-font-family;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic;
+  @include media-query($on-palm) {
+    font-size: 16px;
+  }
+}
+.site-subtitle-author {
+  font-size: 16px;
+  font-weight: 700;
+  @include media-query($on-palm) {
+    font-size: 14px;
+  }
+}
