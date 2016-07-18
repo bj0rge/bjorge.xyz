@@ -11,10 +11,14 @@ email: contact@bjorge.xyz
 description: > # this means to ignore newlines until "baseurl:"
     Ingénieur logiciels de 25 ans, j'ai pas toujours des trucs à dire mais je les dis quand même.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://blog.bjorge.xyz/" # the base hostname & protocol for your site
+url: "http://blog.bjorge.xyz" # the base hostname & protocol for your site
 twitter_username: bj0rge
 github_username:  bj0rge
 disqus_shortname: bjorge-xyz
+subtitle-quote: Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+subtitle-author: John F. Woods
+sass:
+    sass_dir: _sass
 
 # Build settings
 markdown: kramdown
