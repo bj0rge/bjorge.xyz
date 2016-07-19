@@ -4,10 +4,10 @@
     <title>{ bjorge.xyz }</title>
     <description>Ingénieur logiciels de 25 ans, j&#39;ai pas toujours des trucs à dire mais je les dis quand même.
 </description>
-    <link>http://blog.bjorge.xyz//</link>
-    <atom:link href="http://blog.bjorge.xyz//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Jul 2016 22:54:15 +0200</pubDate>
-    <lastBuildDate>Sun, 17 Jul 2016 22:54:15 +0200</lastBuildDate>
+    <link>http://blog.bjorge.xyz/</link>
+    <atom:link href="http://blog.bjorge.xyz/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 19 Jul 2016 15:28:11 +0200</pubDate>
+    <lastBuildDate>Tue, 19 Jul 2016 15:28:11 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -21,11 +21,11 @@
 &lt;p&gt;Je lance donc tout guilleret l’utilitaire d’update. Sauf que pas de bol, selon lui, je peux pas à cause d’un problème de compatibilité. Joie.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;http://blog.bjorge.xyz//img/win10-1.jpg&quot; alt=&quot;Impossible de blablabla&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://blog.bjorge.xyz/img/win10-1.jpg&quot; alt=&quot;Impossible de blablabla&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;center&gt; Impossible de Blablabla &lt;/center&gt;&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;Jusque là je m’en sors sans trop de casse : le seul problème de compatibilité vient d’&lt;a href=&quot;http://getidisplay.com/&quot;&gt;iDisplay&lt;/a&gt;, un utilitaire me permettant d’utiliser mon &lt;a href=&quot;http://blog.bjorge.xyz//img/ichose.jpeg&quot;&gt;iChose&lt;/a&gt; comme troisième écran d’appoint.&lt;/p&gt;
+&lt;p&gt;Jusque là je m’en sors sans trop de casse : le seul problème de compatibilité vient d’&lt;a href=&quot;http://getidisplay.com/&quot;&gt;iDisplay&lt;/a&gt;, un utilitaire me permettant d’utiliser mon &lt;a href=&quot;http://blog.bjorge.xyz/img/ichose.jpeg&quot;&gt;iChose&lt;/a&gt; comme troisième écran d’appoint.&lt;/p&gt;
 
 &lt;p&gt;J’ai donc pris la lourde décision de désinstaller le driver. C’est pas comme si j’avais de toutes façons prévu de tout désinstaller. &lt;em&gt;Oh wait!&lt;/em&gt;&lt;/p&gt;
 
@@ -38,7 +38,7 @@
 &lt;p&gt;Ouep. Voilà donc le réel problème. Aucun bouton pour relancer l’analyse. J’ai bien essayé de redémarrer la machine, mais que dalle. Pas la peine non plus de suivre divers tutos expliquant qu’il faut replanifier la tâche avec la commande &lt;code class=&quot;highlighter-rouge&quot;&gt;schtasks.exe /Run /TN &quot;\Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser&quot;&lt;/code&gt;, ça ne servira qu’à vous faire patienter dans le vent.&lt;/p&gt;
 
 &lt;p&gt;&lt;br /&gt;
-&lt;img src=&quot;http://blog.bjorge.xyz//img/win10-2.jpg&quot; alt=&quot;Kill le process&quot; /&gt;&lt;/p&gt;
+&lt;img src=&quot;http://blog.bjorge.xyz/img/win10-2.jpg&quot; alt=&quot;Kill le process&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;&lt;center&gt;J&#39;ai même essayé de kill le processus et le relancer a la mano&lt;/center&gt;&lt;/em&gt; &lt;br /&gt;&lt;/p&gt;
 
@@ -55,8 +55,8 @@
 &lt;p&gt;Voilà, c’est tout. Il ne reste que quelques jours pour profiter de la migration gratuite vers win10 (jusqu’au 29 juillet), donc autant en profiter sans payer !&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Jul 2016 20:24:00 +0200</pubDate>
-        <link>http://blog.bjorge.xyz//windows/2016/07/14/relancer_un_test_de_compatibilite_windows-10.html</link>
-        <guid isPermaLink="true">http://blog.bjorge.xyz//windows/2016/07/14/relancer_un_test_de_compatibilite_windows-10.html</guid>
+        <link>http://blog.bjorge.xyz/windows/2016/07/14/relancer_un_test_de_compatibilite_windows-10.html</link>
+        <guid isPermaLink="true">http://blog.bjorge.xyz/windows/2016/07/14/relancer_un_test_de_compatibilite_windows-10.html</guid>
         
         
         <category>windows</category>

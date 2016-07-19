@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700,900");
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,300,700,900");
 /**
  * Reset some basic elements
  */
-body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, hr,
+dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
@@ -9,7 +13,7 @@ body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Alegreya Sans", Helvetica, Arial, sans-serif;
   color: #111;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%;
@@ -17,13 +21,14 @@ body {
   -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  -webkit-font-kerning: normal;
-     -moz-font-kerning: normal;
-          font-kerning: normal; }
+  font-kerning: normal; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
+h1, h2, h3, h4, h5, h6,
+p, blockquote, pre,
+ul, ol, dl, figure,
 .highlight {
   margin-bottom: 15px; }
 
@@ -49,7 +54,8 @@ figcaption {
 ul, ol {
   margin-left: 30px; }
 
-li > ul, li > ol {
+li > ul,
+li > ol {
   margin-bottom: 0; }
 
 /**
@@ -65,7 +71,7 @@ a {
   color: #2a7ae2;
   text-decoration: none; }
   a:visited {
-    color: #1758a9; }
+    color: #1756a9; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -86,7 +92,8 @@ blockquote {
 /**
  * Code formatting
  */
-pre, code {
+pre,
+code {
   font-size: 15px;
   border: 1px solid #e8e8e8;
   border-radius: 3px;
@@ -107,6 +114,7 @@ pre {
  * Wrapper
  */
 .wrapper {
+  max-width: -webkit-calc(800px - (30px * 2));
   max-width: calc(800px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
@@ -114,6 +122,7 @@ pre {
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
+      max-width: -webkit-calc(800px - (30px));
       max-width: calc(800px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
@@ -154,7 +163,7 @@ pre {
   margin-bottom: 0;
   float: left; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #ECEFF1; }
 
 .site-nav {
   float: right;
@@ -212,7 +221,8 @@ pre {
   font-size: 18px;
   margin-bottom: 15px; }
 
-.contact-list, .social-media-list {
+.contact-list,
+.social-media-list {
   list-style: none;
   margin-left: 0; }
 
@@ -227,25 +237,31 @@ pre {
   padding-left: 15px; }
 
 .footer-col-1 {
+  width: -webkit-calc(35% - (30px / 2));
   width: calc(35% - (30px / 2)); }
 
 .footer-col-2 {
+  width: -webkit-calc(20% - (30px / 2));
   width: calc(20% - (30px / 2)); }
 
 .footer-col-3 {
+  width: -webkit-calc(45% - (30px / 2));
   width: calc(45% - (30px / 2)); }
 
 @media screen and (max-width: 800px) {
-  .footer-col-1, .footer-col-2 {
+  .footer-col-1,
+  .footer-col-2 {
+    width: -webkit-calc(50% - (30px / 2));
     width: calc(50% - (30px / 2)); }
-  .footer-col-3 {
-    width: calc(100% - (30px / 2)); } }
 
+  .footer-col-3 {
+    width: -webkit-calc(100% - (30px / 2));
+    width: calc(100% - (30px / 2)); } }
 @media screen and (max-width: 600px) {
   .footer-col {
     float: none;
+    width: -webkit-calc(100% - (30px / 2));
     width: calc(100% - (30px / 2)); } }
-
 /**
  * Page content
  */
@@ -441,3 +457,55 @@ pre {
     color: #008080; }
   .highlight .il {
     color: #099; }
+
+.site-header {
+  border: 0;
+  color: #ECEFF1;
+  background: url("/img/bg.png") no-repeat 50% 25%;
+  -webkit-background-size: cover;
+  background-size: cover; }
+  .site-header .wrapper {
+    padding: 50px 0;
+    text-align: center; }
+    @media screen and (max-width: 600px) {
+      .site-header .wrapper {
+        padding: 20px 0; } }
+
+.site-title {
+  float: none;
+  font-family: "Titillium Web", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  font-size: 35px;
+  color: #ECEFF1;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+  @media screen and (max-width: 600px) {
+    .site-title {
+      font-size: 30px; } }
+
+img {
+  margin: auto; }
+
+p {
+  text-align: justify; }
+
+.site-subtitle {
+  margin-top: 60px; }
+  .site-subtitle span {
+    display: block; }
+
+.site-subtitle-quote {
+  font-family: "Alegreya Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  font-style: italic; }
+  @media screen and (max-width: 600px) {
+    .site-subtitle-quote {
+      font-size: 16px; } }
+
+.site-subtitle-author {
+  font-size: 16px;
+  font-weight: 700; }
+  @media screen and (max-width: 600px) {
+    .site-subtitle-author {
+      font-size: 14px; } }
