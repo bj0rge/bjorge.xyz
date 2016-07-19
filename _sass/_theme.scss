@@ -1,6 +1,7 @@
 // Personal modifs
 .site-header {
   border: 0;
+  color: $white-color;
   .wrapper {
     padding: 50px 0;
     text-align: center;
@@ -8,13 +9,16 @@
       padding: 20px 0;
     }
   }
+  background: url('/img/bg.png') no-repeat 50% 25%;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
 .site-title {
   float: none;
   font-family: $title-font-family;
   font-weight: 900;
   font-size: 35px;
-  color: $grey-color-dark;
+  color: $white-color;
   text-transform: uppercase;
   letter-spacing: 1px;
   @include media-query($on-palm) {
